@@ -49,6 +49,14 @@ namespace edisonFinder.Controllers
             return View();
         }
 
+        public ActionResult Businesses()
+        {
+            ViewBag.Message = "Businesses";
+
+            return View();
+        }
+
+
 
     }
 }

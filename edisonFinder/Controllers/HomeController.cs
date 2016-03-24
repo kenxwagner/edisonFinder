@@ -26,5 +26,29 @@ namespace edisonFinder.Controllers
 
             return View();
         }
+
+        public ActionResult Disclaimer()
+        {
+            ViewBag.Message = "****** DISCLAIMER ******";
+
+            return View();
+        }
+
+        public ActionResult Ideas()
+        {
+            ViewBag.Message = "Ideas";
+
+            return View();
+        }
+
+
+        public ActionResult Inventors()
+        {
+            ViewBag.Message = "Invent";
+
+            return View();
+        }
+
+
     }
 }

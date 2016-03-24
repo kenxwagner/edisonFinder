@@ -230,6 +230,7 @@
     <Content Include="Views\Home\Inventors.cshtml" />
     <Content Include="Views\Home\Assistants.cshtml" />
     <Content Include="Views\Home\Businesses.cshtml" />
+    <Content Include="Views\Home\Ideas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
